@@ -38,13 +38,13 @@ const romanticData = [
   },
   {
     id: 5,
-    image: "public/WhatsApp Image 2025-10-02 at 22.14.14_64f604e8.jpg",
+    image: "public/WhatsApp Image 2025-10-31 at 19.24.29_91c74515 - Copy.jpg",
     title: "Perfect Together",
     description: "We complete each other 💑"
   },
   {
     id: 6,
-    image: "public/WhatsApp Image 2025-10-02 at 18.41.56_24a6c798.jpg",
+    image: "public/WhatsApp Image 2025-10-31 at 19.24.30_9789a28d.jpg",
     title: "My Beautiful Queen",
     description: "The most amazing person in my life 👑"
   },
@@ -56,7 +56,7 @@ const romanticData = [
   },
   {
     id: 8,
-    image: "public/WhatsApp Image 2025-10-31 at 18.19.39_7ce145e6.jpg",
+    image: "public/WhatsApp Image 2025-10-31 at 19.24.31_6437077d.jpg",
     title: "Our Journey",
     description: "Just beginning our forever story 💞"
   }
