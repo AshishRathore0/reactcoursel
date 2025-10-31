@@ -1,62 +1,67 @@
-
-
-
-
-
-// App.js 
+// App.js - UPDATED
 import React from 'react';
 import ArrowCarousel from './components/ArrowCarousel';
 import DragCarousel from './components/DragCarousel';
 import FadeCarousel from './components/FadeCarousel';
 import Gallery from './components/Gallery';
 
-// Romantic photos with your memories - yeh teri photos se replace karna
+// IMPORT YOUR IMAGES FIRST
+import img1 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.21_d78a0eaa.jpg';
+import img2 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.20_9869117e.jpg';
+import img3 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.20_6f30f9a0.jpg';
+import img4 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.21_d5a2c58f.jpg';
+import img5 from './assets/images/WhatsApp Image 2025-10-31 at 19.24.29_91c74515 - Copy.jpg';
+import img6 from './assets/images/WhatsApp Image 2025-10-31 at 19.24.30_9789a28d.jpg';
+import img7 from './assets/images/WhatsApp Image 2025-10-31 at 18.17.16_488a5a44.jpg';
+import img8 from './assets/images/WhatsApp Image 2025-10-31 at 19.24.31_6437077d.jpg';
+
+// Romantic photos with your memories
 const romanticData = [
   {
     id: 1,
-    image: "public/WhatsApp Image 2025-10-31 at 17.56.21_d78a0eaa.jpg",
+    image: img1,
     title: "Our Beautiful Memories",
     description: "Every moment with you is special 💖"
   },
   {
     id: 2,
-    image: "public/WhatsApp Image 2025-10-31 at 17.56.20_9869117e.jpg",
+    image: img2,
     title: "You're My Everything",
     description: "My life changed when I met you ✨"
   },
   {
     id: 3,
-    image: "public/WhatsApp Image 2025-10-31 at 17.56.20_6f30f9a0.jpg",
+    image: img3,
     title: "Always in My Heart",
     description: "No matter the distance, you're always here 💕"
   },
   {
     id: 4,
-    image: "public/WhatsApp Image 2025-10-31 at 17.56.21_d5a2c58f.jpg",
+    image: img4,
     title: "My Love for You",
     description: "Grows stronger every day 🌹"
   },
   {
     id: 5,
-    image: "public/WhatsApp Image 2025-10-31 at 19.24.29_91c74515 - Copy.jpg",
+    image: img5,
     title: "Perfect Together",
     description: "We complete each other 💑"
   },
   {
     id: 6,
-    image: "public/WhatsApp Image 2025-10-31 at 19.24.30_9789a28d.jpg",
+    image: img6,
     title: "My Beautiful Queen",
     description: "The most amazing person in my life 👑"
   },
   {
     id: 7,
-    image: "public/WhatsApp Image 2025-10-31 at 18.17.16_488a5a44.jpg",
+    image: img7,
     title: "Forever Yours",
     description: "Promise to always make you happy 💍"
   },
   {
     id: 8,
-    image: "public/WhatsApp Image 2025-10-31 at 19.24.31_6437077d.jpg",
+    image: img8,
     title: "Our Journey",
     description: "Just beginning our forever story 💞"
   }
