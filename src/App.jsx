@@ -6,14 +6,14 @@ import FadeCarousel from './components/FadeCarousel';
 import Gallery from './components/Gallery';
 
 // IMPORT YOUR IMAGES FIRST
-import img1 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.21_d78a0eaa.jpg';
-import img2 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.20_9869117e.jpg';
-import img3 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.20_6f30f9a0.jpg';
-import img4 from './assets/images/WhatsApp Image 2025-10-31 at 17.56.21_d5a2c58f.jpg';
-import img5 from './assets/images/WhatsApp Image 2025-10-31 at 19.24.29_91c74515 - Copy.jpg';
-import img6 from './assets/images/WhatsApp Image 2025-10-31 at 19.24.30_9789a28d.jpg';
-import img7 from './assets/images/WhatsApp Image 2025-10-31 at 18.17.16_488a5a44.jpg';
-import img8 from './assets/images/WhatsApp Image 2025-10-31 at 19.24.31_6437077d.jpg';
+import img1 from './assets/images/pic1.jpg';
+import img2 from './assets/images/WhatsApp Image 2025-10-31 at 18.19.39_7ce145e6.jpg';
+import img3 from './assets/images/pic2.jpg';
+import img4 from './assets/images/WhatsApp Image 2025-10-02 at 22.14.14_64f604e8.jpg';
+import img5 from './assets/images/pic3.jpg';
+import img6 from './assets/images/WhatsApp Image 2025-10-02 at 18.41.56_24a6c798.jpg';
+import img7 from './assets/images/pic3.jpg';
+import img8 from './assets/images/pic4.jpg';
 
 // Romantic photos with your memories
 const romanticData = [
