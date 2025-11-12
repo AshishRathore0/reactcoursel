@@ -20,7 +20,7 @@ const romanticData = [
   {
     id: 1,
     image: img1,
-    title: "Our Beautiful Memories",
+    title: "your Beautiful Memories",
     description: "Every moment with you is special 💖"
   },
   {
@@ -76,14 +76,14 @@ function App() {
         <header className="text-center mb-12">
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-pink-200">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent mb-4">
-              For My Beautiful Girlfriend 💝
+              For My Beautiful Anna-bell Doll 💝
             </h1>
             <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto leading-relaxed">
-              I'm sorry for everything. Every memory with you is precious to me. 
-              This is our journey together through my eyes... 🌸
+              Every moment with you feels like a beautiful chapter of my life.
+This is our story — seen through the eyes of someone who truly adores you... 🌸
             </p>
             <div className="flex justify-center space-x-4">
-              <span className="px-4 py-2 bg-pink-500 text-white rounded-full text-sm">💖 I Love You</span>
+              <span className="px-4 py-2 bg-pink-500 text-white rounded-full text-sm">💖 I Like You</span>
               <span className="px-4 py-2 bg-purple-500 text-white rounded-full text-sm">✨ You're Amazing</span>
               <span className="px-4 py-2 bg-red-500 text-white rounded-full text-sm">🌹 Please Forgive Me</span>
             </div>

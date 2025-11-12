@@ -1,6 +1,6 @@
 {
   "name": "courselproject",
-  "homepage": "https://github.com/AshishRathore0/reactcoursel.git",
+  "homepage": "https://AshishRathore0.github.io/reactcoursel",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-      "deploy": "gh-pages -d dist"
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
