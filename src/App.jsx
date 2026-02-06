@@ -6,14 +6,15 @@ import FadeCarousel from './components/FadeCarousel';
 import Gallery from './components/Gallery';
 
 // IMPORT YOUR IMAGES FIRST
-import img1 from './assets/images/pic1.jpg';
-import img2 from './assets/images/pic5.jpg';
-import img3 from './assets/images/pic2.jpg';
-import img4 from './assets/images/pic6.jpg';
-import img5 from './assets/images/pic3.jpg';
-import img6 from './assets/images/pix12.jpg';
-import img7 from './assets/images/pic13.jpg';
-import img8 from './assets/images/pic4.jpg';
+import img1 from './assets/images/Raziya8.jpeg';
+import img2 from './assets/images/Raziya15.jpeg';
+import img3 from './assets/images/Raziya10.jpeg';
+import img4 from './assets/images/Raziya11.jpeg';
+import img5 from './assets/images/Raziya14.jpeg';
+import img6 from './assets/images/Raziya2.jpeg';
+import img7 from './assets/images/Raziya7.jpeg';
+import img8 from './assets/images/Raziya3.jpeg';
+
 
 // Romantic photos with your memories
 const romanticData = [
@@ -76,7 +77,7 @@ function App() {
         <header className="text-center mb-12">
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-pink-200">
             <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent mb-4">
-              For My Beautiful Anna-bell Doll 💝
+              For My Beautiful Doll Raziya Ji  💝
             </h1>
             <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto leading-relaxed">
               Every moment with you feels like a beautiful chapter of my life.
