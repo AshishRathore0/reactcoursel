@@ -6,140 +6,150 @@ import FadeCarousel from './components/FadeCarousel';
 import Gallery from './components/Gallery';
 
 // IMPORT YOUR IMAGES FIRST
-import img1 from './assets/images/Raziya8.jpeg';
-import img2 from './assets/images/Raziya15.jpeg';
-import img3 from './assets/images/Raziya10.jpeg';
-import img4 from './assets/images/Raziya11.jpeg';
-import img5 from './assets/images/Raziya14.jpeg';
-import img6 from './assets/images/Raziya2.jpeg';
-import img7 from './assets/images/Raziya7.jpeg';
-import img8 from './assets/images/Raziya3.jpeg';
+import img1 from './assets/images/pic1.jpg';
+import img2 from './assets/images/pic2.jpg';
+import img3 from './assets/images/pic3.jpg';
+import img4 from './assets/images/pic4.jpg';
+import img5 from './assets/images/pic5.jpg';
+import img6 from './assets/images/pic6.jpg';
+import img7 from './assets/images/pic7.jpg';
+import img8 from './assets/images/pic8.jpg';
 
-
-// Romantic photos with your memories
+// Nature + Romantic vibes 🌿💖
 const romanticData = [
   {
     id: 1,
     image: img1,
-    title: "your Beautiful Memories",
-    description: "Every moment with you is special 💖"
+    title: "Whispers of Nature",
+    description: "Like the breeze, your love touches my soul softly 🍃"
   },
   {
     id: 2,
     image: img2,
-    title: "You're My Everything",
-    description: "My life changed when I met you ✨"
+    title: "Sunset Love",
+    description: "Every sunset feels more beautiful with you in my thoughts 🌅"
   },
   {
     id: 3,
     image: img3,
-    title: "Always in My Heart",
-    description: "No matter the distance, you're always here 💕"
+    title: "Blooming Hearts",
+    description: "Like flowers, my love for you blooms endlessly 🌸"
   },
   {
     id: 4,
     image: img4,
-    title: "My Love for You",
-    description: "Grows stronger every day 🌹"
+    title: "Ocean of Love",
+    description: "My love for you is as deep and endless as the sea 🌊"
   },
   {
     id: 5,
     image: img5,
-    title: "Perfect Together",
-    description: "We complete each other 💑"
+    title: "Under the Stars",
+    description: "With you, even the stars shine brighter ✨"
   },
   {
     id: 6,
     image: img6,
-    title: "My Beautiful Queen",
-    description: "The most amazing person in my life 👑"
+    title: "Mountain Peace",
+    description: "In your arms, I find the calm of the mountains ⛰️"
   },
   {
     id: 7,
     image: img7,
-    title: "Forever Yours",
-    description: "Promise to always make you happy 💍"
+    title: "Rainy Love",
+    description: "Every raindrop reminds me of your gentle love 🌧️"
   },
   {
     id: 8,
     image: img8,
-    title: "Our Journey",
-    description: "Just beginning our forever story 💞"
+    title: "Forever Like Nature",
+    description: "Just like nature, my love for you will never fade 🌿💞"
   }
 ];
 
+
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-50 to-red-50 py-8 px-4">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50 py-8 px-4">
       <div className="max-w-7xl mx-auto">
         
-        {/* Romantic Header */}
+        {/* Professional Header */}
         <header className="text-center mb-12">
-          <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-xl border border-pink-200">
-            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent mb-4">
-              For My Beautiful Doll Raziya Ji  💝
+          <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-green-100">
+            
+            <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text text-transparent mb-4">
+              Nature Gallery Showcase 🌿
             </h1>
-            <p className="text-lg text-gray-700 mb-6 max-w-3xl mx-auto leading-relaxed">
-              Every moment with you feels like a beautiful chapter of my life.
-This is our story — seen through the eyes of someone who truly adores you... 🌸
+
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+              A modern and interactive gallery built using React, showcasing the beauty of nature 
+              through smooth animations and engaging UI components.
             </p>
-            <div className="flex justify-center space-x-4">
-              <span className="px-4 py-2 bg-pink-500 text-white rounded-full text-sm">💖 I Like You</span>
-              <span className="px-4 py-2 bg-purple-500 text-white rounded-full text-sm">✨ You're Amazing</span>
-              <span className="px-4 py-2 bg-red-500 text-white rounded-full text-sm">🌹 Please Forgive Me</span>
+
+            <div className="flex flex-wrap justify-center gap-3 mt-6">
+              <span className="px-4 py-2 bg-green-500 text-white rounded-full text-sm shadow">
+                🌿 Nature Inspired
+              </span>
+              <span className="px-4 py-2 bg-teal-500 text-white rounded-full text-sm shadow">
+                ⚡ Smooth Animations
+              </span>
+              <span className="px-4 py-2 bg-emerald-500 text-white rounded-full text-sm shadow">
+                🎯 Clean UI Design
+              </span>
             </div>
+
           </div>
         </header>
 
         <div className="space-y-16">
           
-          {/* 1. Our Love Story Carousel */}
-          <section className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-6 border border-pink-100">
+          {/* 1. Arrow Carousel */}
+          <section className="bg-white/90 backdrop-blur-md rounded-3xl shadow-xl p-6 border border-green-100">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-pink-700 mb-4">
-                💕 Our Love Story
+              <h2 className="text-3xl font-semibold text-green-700 mb-2">
+                🌄 Featured Landscapes
               </h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Every slide is a precious memory I cherish...
+              <p className="text-gray-600 text-lg">
+                Explore breathtaking natural views through an interactive arrow-based carousel.
               </p>
             </div>
             <ArrowCarousel items={romanticData} />
           </section>
 
-          {/* 2. Swipe Through Our Memories */}
-          <section className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-6 border border-purple-100">
+          {/* 2. Drag Carousel */}
+          <section className="bg-white/90 backdrop-blur-md rounded-3xl shadow-xl p-6 border border-teal-100">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-purple-700 mb-4">
-                🌟 Swipe Through Our Memories
+              <h2 className="text-3xl font-semibold text-teal-700 mb-2">
+                🖱️ Drag Interaction Gallery
               </h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Drag to see more of our beautiful moments together
+              <p className="text-gray-600 text-lg">
+                Swipe or drag to navigate through high-quality nature visuals.
               </p>
             </div>
             <DragCarousel items={romanticData} />
           </section>
 
-          {/* 3. Fading Memories */}
-          <section className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-6 border border-red-100">
+          {/* 3. Fade Carousel */}
+          <section className="bg-white/90 backdrop-blur-md rounded-3xl shadow-xl p-6 border border-emerald-100">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-red-600 mb-4">
-                🌹 Fading Memories That Last Forever
+              <h2 className="text-3xl font-semibold text-emerald-700 mb-2">
+                🌅 Smooth Fade Transitions
               </h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Each fade brings back another sweet memory of us
+              <p className="text-gray-600 text-lg">
+                Experience seamless transitions between stunning nature moments.
               </p>
             </div>
             <FadeCarousel items={romanticData} />
           </section>
 
-          {/* 4. Our Memory Gallery */}
-          <section className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-6 border border-pink-100">
+          {/* 4. Image Gallery */}
+          <section className="bg-white/90 backdrop-blur-md rounded-3xl shadow-xl p-6 border border-green-100">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold text-pink-600 mb-4">
-                📸 Our Memory Gallery
+              <h2 className="text-3xl font-semibold text-green-600 mb-2">
+                🖼️ Nature Image Gallery
               </h2>
-              <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                Click on any photo to see it larger - each one tells our story
+              <p className="text-gray-600 text-lg">
+                Click on images to preview them in full size with a responsive layout.
               </p>
             </div>
             <Gallery items={romanticData} />
@@ -147,18 +157,22 @@ This is our story — seen through the eyes of someone who truly adores you... �
 
         </div>
 
-        {/* Romantic Footer */}
-        <footer className="text-center mt-16 p-8 bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-pink-200">
-          <div className="max-w-2xl mx-auto">
-            <p className="text-lg text-gray-700 mb-4">
-              "I may not be perfect, but my love for you is. I promise to be better and make you happy every day. 
-              You mean the world to me and I can't imagine my life without you. 💝"
-            </p>
-            <div className="flex flex-wrap justify-center gap-3 mt-6">
-              <span className="px-4 py-2 bg-gradient-to-r from-pink-500 to-red-500 text-white rounded-full">💖 Forever Yours</span>
-              <span className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full">✨ Always Sorry</span>
-              <span className="px-4 py-2 bg-gradient-to-r from-red-500 to-pink-500 text-white rounded-full">🌹 Please Forgive Me</span>
-            </div>
+        {/* Professional Footer */}
+        <footer className="text-center mt-16 p-8 bg-white/80 backdrop-blur-md rounded-3xl shadow-xl border border-green-100">
+          <p className="text-gray-700 text-lg">
+            Built using React.js with reusable components, smooth animations, and responsive design principles.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-3 mt-6">
+            <span className="px-4 py-2 bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-full">
+              ⚛️ React.js
+            </span>
+            <span className="px-4 py-2 bg-gradient-to-r from-teal-500 to-emerald-500 text-white rounded-full">
+              🎨 Tailwind CSS
+            </span>
+            <span className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-green-500 text-white rounded-full">
+              📱 Responsive UI
+            </span>
           </div>
         </footer>
 
